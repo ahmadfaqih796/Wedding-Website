@@ -1,0 +1,28 @@
+.header {
+   width: 100%;
+   height: 100vh;
+   background-color: blueviolet;
+   background-image: url(../gambar/pasir.png);
+}
+.header .bunga-2 {
+   display: none;
+}
+.header .thumb {
+   display: block;
+   width: 150px;
+   margin: -100px auto 0;
+}
+.header article {
+   text-align: center;
+}
+/* Handphone */
+@media screen and (max-width : 500px) {
+   .header {
+      background-color: red;
+   }
+   .header .bunga-2 {
+      display: block;
+      width: 400px;
+      margin: -210px auto 0;
+   }
+}

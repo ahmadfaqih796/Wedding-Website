@@ -4,13 +4,33 @@
    background-color: blueviolet;
    background-image: url(../gambar/pasir.png);
 }
+.header .bunga-1 {
+   display: block;
+   position: relative;
+   width: 500px;
+   margin: auto;
+   top: 50%;
+}
+.header .bunga {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+.header .bunga-1.kiri{
+   margin-left: -200px;
+   transform: rotate(90deg);
+}
+.header .bunga-1.kanan {
+   margin-right: -200px;
+   transform: rotate(90deg) scaleY(-1);
+}
 .header .bunga-2 {
    display: none;
 }
 .header .thumb {
    display: block;
    width: 150px;
-   margin: 0 auto 10vh;
+   margin: -50vh auto 10vh;
 }
 .header article {
    text-align: center;
@@ -33,6 +53,9 @@
    }
    .header .thumb {
       margin: -100px auto 0;
+   }
+   .header .bunga-1 {
+      display: none;
    }
    .header .bunga-2 {
       display: block;

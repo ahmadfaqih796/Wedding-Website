@@ -3,11 +3,13 @@
    height: 100vh;
    background-color: #313f67;
    background-image: url(../gambar/pasir.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 .header .bunga-1 {
    display: block;
    position: relative;
-   width: 500px;
+   width: 600px;
    margin: auto;
 }
 .header .bingkai {
@@ -35,6 +37,7 @@
    margin: 25vh auto 10vh;
 }
 .header article {
+   margin-top: -100px;
    position: relative;
    text-align: center;
    color: white;
@@ -56,14 +59,20 @@
       background-color: #313f67;
    }
    .header .thumb {
-      margin: -100px auto 5vh;
+      margin: 0 auto 5vh;
    }
    .header .bunga-1 {
       display: none;
    }
+   .header article {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
    .header .bunga-2 {
       display: block;
       width: 100%;
-      margin: -25vh auto 0;
+      margin: -25vh auto -10vh;
    }
 }

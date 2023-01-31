@@ -1,10 +1,27 @@
 * {
-   padding: 0;
-   margin:  0;
-   box-sizing: border-box;
-   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 :root {
-   --primary: blueviolet;
+  --primary: blueviolet;
+}
+
+.divider-wave {
+  mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);
+  -webkit-mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);
+}
+.has-divider {
+  background-color: #fff;
+  mask-size: cover, 100% 50px;
+  mask-position: top center;
+  mask-repeat: no-repeat;
+  mask-composite: source-out;
+  -webkit-mask-size: cover, 100% 50px;
+  -webkit-mask-position: top center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-composite: source-out;
+  margin-top: -50px;
 }

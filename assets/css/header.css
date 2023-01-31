@@ -1,7 +1,7 @@
 .header {
    width: 100%;
    height: 100vh;
-   background-color: blueviolet;
+   background-color: #313f67;
    background-image: url(../gambar/pasir.png);
 }
 .header .bunga-1 {
@@ -9,12 +9,14 @@
    position: relative;
    width: 500px;
    margin: auto;
-   top: 50%;
 }
-.header .bunga {
+.header .bingkai {
    display: flex;
    width: 100%;
+   position: absolute;
    justify-content: space-between;
+   top: 50%;
+   transform: translateY(-50%);
 }
 .header .bunga-1.kiri{
    margin-left: -200px;
@@ -29,12 +31,14 @@
 }
 .header .thumb {
    display: block;
-   width: 150px;
-   margin: -50vh auto 10vh;
+   width: 200px;
+   margin: 25vh auto 10vh;
 }
 .header article {
+   position: relative;
    text-align: center;
    color: white;
+   z-index: 1;
 }
 .header article p{
    font-size: 40px;
@@ -48,11 +52,11 @@
 @media screen and (max-width : 500px) {
    .header {
       width: 100%;
+      height: 100vh;
       background-color: #313f67;
-      height: 125vh;
    }
    .header .thumb {
-      margin: -100px auto 0;
+      margin: -100px auto 5vh;
    }
    .header .bunga-1 {
       display: none;

@@ -25,3 +25,11 @@
   -webkit-mask-composite: source-out;
   margin-top: -50px;
 }
+@font-face {
+   font-family: itim;
+   src: url(../font/Itim-Regular.ttf);
+}
+@font-face {
+   font-family: overlock;
+   src: url(../font/Overlock-Regular.ttf);
+}

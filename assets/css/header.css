@@ -46,11 +46,25 @@
 .header article p{
    font-size: 40px;
    font-weight: 700;
+   font-family: overlock;
 }
 .header article h1{
    font-size: 50px;
    font-weight: 700;
+   font-family: itim;
 }
+
+/* Tablet */
+@media screen and (max-width : 800px) {
+   .header .thumb {
+      width: 150px;
+      margin: 40vh auto 5vh;
+   }
+   .header .bunga-1 {
+      width: 450px;
+   }
+}
+
 /* Handphone */
 @media screen and (max-width : 500px) {
    .header {
@@ -65,10 +79,15 @@
       display: none;
    }
    .header article {
+      margin-top: 0;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+   }
+   .header article p {
+   font-size: 20px;
+   padding: 10px;
    }
    .header .bunga-2 {
       display: block;

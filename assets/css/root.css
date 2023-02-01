@@ -13,6 +13,10 @@
   mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);
   -webkit-mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);
 }
+.divider-triangle-down {
+  mask-image: url(../gambar/square.svg), url(../gambar/divider-triangle-down.svg);
+  -webkit-mask-image: url(../gambar/square.svg), url(../gambar/divider-triangle-down.svg);
+}
 .has-divider {
   background-color: #fff;
   mask-size: cover, 100% 50px;

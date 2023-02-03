@@ -5,6 +5,7 @@
    background-image: url(../gambar/pasir.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
+   padding: 50px 0;
 }
 
 .tanggal article {
@@ -20,11 +21,22 @@
 .tanggal .count-timer {
  margin-bottom: 50px;
  display: flex;
- max-width: 500px;
+ max-width: 600px;
  flex-wrap: wrap;
  justify-content: space-evenly;
  margin: 0 auto 50px;
 }
 .tanggal .count-timer h1 {
-  padding: 10px;
+  padding: 30px;
+}
+
+/* Tablet */
+@media screen and (max-width : 800px) {
+  .tanggal h1 {
+    font-size: 28px;
+  }
+  .tanggal .count-timer h1 {
+    font-size: 28px;
+    padding: 0;
+  }
 }

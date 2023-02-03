@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fulan & Fulanah</title>
     <link rel="stylesheet" href="assets/css/root.css" />
+    <link rel="stylesheet" href="assets/css/animation.css">
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/acara.css" />
     <link rel="stylesheet" href="assets/css/tanggal.css" />
@@ -13,7 +14,7 @@
   <body>
     <main class="header">
       <img class="bunga-2" src="assets/gambar/bunga-2.png" alt="" />
-      <div class="bingkai">
+      <div class="bingkai reveal">
         <img class="bunga-1 kiri" src="assets/gambar/bunga-2.png" alt="" />
         <img class="bunga-1 kanan" src="assets/gambar/bunga-2.png" alt="" />
       </div>
@@ -25,18 +26,31 @@
       </article>
     </main>
     <main class="tanggal divider-wave has-divider">
-      <article>
+      <article class="reveal">
         <h1>December 18<sup>th</sup>, 2022</h1>
         <img src="assets/gambar/save-the-date.png" alt="tanggal" />
         <div id="count-timer" class="count-timer">
-          <h1><div id="hari"></div>Hari</h1>
-          <h1><div id="jam"></div>Jam</h1>
-          <h1><div id="menit"></div>Menit</h1>
-          <h1><div id="detik"></div>Detik</h1>
+          <h1>
+            <div id="hari"></div>
+            Hari
+          </h1>
+          <h1>
+            <div id="jam"></div>
+            Jam
+          </h1>
+          <h1>
+            <div id="menit"></div>
+            Menit
+          </h1>
+          <h1>
+            <div id="detik"></div>
+            Detik
+          </h1>
         </div>
       </article>
     </main>
     <main class="acara divider-triangle-down has-divider"></main>
     <script src="assets/js/count-timer.js"></script>
+    <script src="assets/js/animation.js"></script>
   </body>
 </html>

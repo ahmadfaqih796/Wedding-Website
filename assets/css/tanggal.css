@@ -7,3 +7,14 @@
    background-repeat: no-repeat;
    background-size: 100% 100%;
 }
+
+.tanggal article {
+  font-family: itim;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 28px;
+}
+.tanggal img {
+  width: 250px;
+  margin: 50px 0 50px;
+}

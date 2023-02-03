@@ -16,12 +16,14 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Keluarkan hasil dalam elemen dengan id = "demo"
-  document.getElementById("demo").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById("hari").innerHTML = days;
+  document.getElementById("jam").innerHTML = hours;
+  document.getElementById("menit").innerHTML = minutes;
+  document.getElementById("detik").innerHTML = seconds;
 
   //Jika hitungan mundur selesai, tulis beberapa teks
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("count-timer").innerHTML = "Acara telah selesai";
   }
 }, 1000);

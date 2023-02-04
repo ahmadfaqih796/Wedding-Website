@@ -7,6 +7,14 @@
 
 :root {
   --primary: blueviolet;
+  --pink: #FFC0CB;
+  --aqua: #CCF7FF;
+}
+.pink {
+  background-color: #FFC0CB !important;
+}
+.blue-light {
+  background-color: #CCF7FF !important;
 }
 
 .divider-wave {

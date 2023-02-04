@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/tanggal.css" />
   </head>
   <body>
-    <main class="header">
+    <main id="warna-1" class="header">
       <img class="bunga-2" src="assets/gambar/bunga-2.png" alt="" />
       <div class="bingkai reveal">
         <img class="bunga-1 kiri" src="assets/gambar/bunga-2.png" alt="" />
@@ -25,7 +25,7 @@
         <p>Wedding Party</p>
       </article>
     </main>
-    <main class="tanggal divider-wave has-divider">
+    <main id="warna-2" class="tanggal divider-wave has-divider">
       <article class="reveal">
         <h1>December 18<sup>th</sup>, 2022</h1>
         <img src="assets/gambar/save-the-date.png" alt="tanggal" />
@@ -49,8 +49,12 @@
         </div>
       </article>
     </main>
-    <main class="acara divider-triangle-down has-divider"></main>
+    <main id="warna-1" class="acara divider-triangle-down has-divider">
+      <button type="button" onclick="themeToggle()">Theme Toggle</button>
+      <div id="theme"></div>
+    </main>
     <script src="assets/js/count-timer.js"></script>
     <script src="assets/js/animation.js"></script>
+    <script src="assets/js/theme.js"></script>
   </body>
 </html>

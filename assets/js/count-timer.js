@@ -1,5 +1,5 @@
 // Tetapkan tanggal kita menghitung mundur
-var countDownDate = new Date("july 27, 2023 10:00:20").getTime();
+var countDownDate = new Date("February 12, 2023 10:00:20").getTime();
 
 // Perbarui hitungan mundur setiap 1 detik
 var x = setInterval(function () {
@@ -15,14 +15,19 @@ var x = setInterval(function () {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Keluarkan hasil dalam elemen dengan id = "demo"
+  // Keluarkan hasil dalam elemen dengan id
   document.getElementById("hari").innerHTML = days;
   document.getElementById("jam").innerHTML = hours;
   document.getElementById("menit").innerHTML = minutes;
   document.getElementById("detik").innerHTML = seconds;
 
-  //Jika hitungan mundur selesai, tulis beberapa teks
+  //Jika hitungan mundur selesai
   if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("count-timer").innerHTML = "Acara sedang berlangsung";
+  }
+  // Jika hitungan lewat 1 hari
+  if (days < -1) {
     clearInterval(x);
     document.getElementById("count-timer").innerHTML = "Acara telah selesai";
   }

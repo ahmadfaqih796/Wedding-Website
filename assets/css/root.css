@@ -7,14 +7,17 @@
 
 :root {
   --primary: blueviolet;
-  --pink: #FFC0CB;
-  --aqua: #CCF7FF;
+  --pink: #ffc0cb;
+  --aqua: #ccf7ff;
+}
+html {
+  scroll-behavior: smooth;
 }
 .pink {
-  background-color: #FFC0CB !important;
+  background-color: #ffc0cb !important;
 }
 .blue-light {
-  background-color: #CCF7FF !important;
+  background-color: #ccf7ff !important;
 }
 
 .divider-wave {
@@ -22,8 +25,10 @@
   -webkit-mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);
 }
 .divider-triangle-down {
-  mask-image: url(../gambar/square.svg), url(../gambar/divider-triangle-down.svg);
-  -webkit-mask-image: url(../gambar/square.svg), url(../gambar/divider-triangle-down.svg);
+  mask-image: url(../gambar/square.svg),
+    url(../gambar/divider-triangle-down.svg);
+  -webkit-mask-image: url(../gambar/square.svg),
+    url(../gambar/divider-triangle-down.svg);
 }
 .has-divider {
   background-color: #fff;
@@ -38,10 +43,10 @@
   margin-top: -50px;
 }
 @font-face {
-   font-family: itim;
-   src: url(../font/Itim-Regular.ttf);
+  font-family: itim;
+  src: url(../font/Itim-Regular.ttf);
 }
 @font-face {
-   font-family: overlock;
-   src: url(../font/Overlock-Regular.ttf);
+  font-family: overlock;
+  src: url(../font/Overlock-Regular.ttf);
 }

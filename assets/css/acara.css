@@ -1,16 +1,24 @@
 .acara {
    width: 100%;
-   height: 500px;
    background-color: #313f67;
    background-image: url(../gambar/pasir.png);
    background-repeat: no-repeat;
    background-size: 100% 100%;
+   padding: 100px 0 50px;
+   overflow: hidden;
 }
 .acara .card {
-   border: 5px solid white;
+   border: 8px solid white;
+   border-radius: 20px;
    width: 80%;
    height: 500px;
+   margin: 0 auto;
+   padding: 10px;
 }
 .acara .card article {
-   
+   border: 8px solid white;
+   border-radius: 12px;
+   background-color: white;
+   width: 100%;
+   height: 100%;
 }

@@ -6,3 +6,11 @@
    background-repeat: no-repeat;
    background-size: 100% 100%;
 }
+.acara .card {
+   border: 5px solid white;
+   width: 80%;
+   height: 500px;
+}
+.acara .card article {
+   
+}

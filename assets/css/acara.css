@@ -85,3 +85,17 @@
   color: #313f67;
   font-size: 24px;
 }
+
+@media screen and (max-width : 900px) {
+  .acara .bunga-kuning {
+    width: 300px;
+  }
+  .acara .bunga-kuning.atas{
+    left: 50%;
+    transform: translate(-50%, -120px);
+  }
+  .acara .bunga-kuning.bawah{
+    left: 50%;
+    transform: translate(-50%, -150px);
+  }
+}

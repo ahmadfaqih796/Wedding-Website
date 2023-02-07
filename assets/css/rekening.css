@@ -16,11 +16,37 @@
   text-align: center;
 }
 .rekening article {
+  display: flex;
+  align-items: center;
   border: 5px solid #313f67;
   background-color: #ffffff;
   border-radius: 8px;
   max-width: 300px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px;
   overflow: hidden;
+}
+.rekening article img {
+  width: 80px;
+  height: 100%;
+}
+.rekening article section {
+  font-family: overlock;
+  padding: 10px;
+}
+.rekening article section h1:nth-child(1) {
+  color: #313f67;
+  margin-bottom: 5px;
+}
+.rekening article button {
+  width: 100px;
+  font-family: overlock;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 3px solid #313f67;
+  padding: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }

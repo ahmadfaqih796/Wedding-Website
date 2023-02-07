@@ -1,0 +1,26 @@
+.rekening {
+  width: 100%;
+  height: 400px;
+  background-color: #f9c262;
+  background-image: url(../gambar/pasir.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.rekening legend {
+  color: #313f67;
+  font-weight: 700;
+  font-size: 50px;
+  padding: 20px;
+  font-family: itim;
+  text-align: center;
+}
+.rekening article {
+  border: 5px solid #313f67;
+  background-color: #ffffff;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+}

@@ -30,6 +30,11 @@ html {
   mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);
   -webkit-mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);
 }
+.divider-triangle-up {
+  mask-image: url(../gambar/square.svg), url(../gambar/divider-triangle-up.svg);
+  -webkit-mask-image: url(../gambar/square.svg),
+    url(../gambar/divider-triangle-up.svg);
+}
 .divider-triangle-down {
   mask-image: url(../gambar/square.svg),
     url(../gambar/divider-triangle-down.svg);

@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/acara.css" />
     <link rel="stylesheet" href="assets/css/tanggal.css" />
-    <link rel="stylesheet" href="assets/css/rekening.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <script src="https://kit.fontawesome.com/8484f65b47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/rekening.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <script
+      src="https://kit.fontawesome.com/8484f65b47.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <main id="warna-1" class="header">
@@ -53,7 +56,11 @@
       </article>
     </main>
     <main id="warna-1" class="acara divider-triangle-down has-divider">
-      <img class="bunga-kuning atas reveal" src="assets/gambar/bunga-kuning.png" alt="">
+      <img
+        class="bunga-kuning atas reveal"
+        src="assets/gambar/bunga-kuning.png"
+        alt=""
+      />
       <div class="card reveal">
         <article>
           <h1 style="margin-top: 30px; text-align: center">Minggu</h1>
@@ -79,23 +86,56 @@
             </p>
           </div>
           <div class="tombol">
-            <a href="#"><i class="fa-sharp fa-solid fa-map-location-dot"></i> Lihat Peta</a>
+            <a href="#"
+              ><i class="fa-sharp fa-solid fa-map-location-dot"></i> Lihat
+              Peta</a
+            >
           </div>
         </article>
       </div>
-      <img class="bunga-kuning bawah reveal" src="assets/gambar/bunga-kuning.png" alt="">
+      <img
+        class="bunga-kuning bawah reveal"
+        src="assets/gambar/bunga-kuning.png"
+        alt=""
+      />
     </main>
     <main class="rekening divider-triangle-up has-divider">
       <legend class="reveal">Cashless Donation</legend>
-      <article>
-        <img src="assets/gambar/BCA.png" alt="BCA">
-        <section>
-          <h1>Bank Central Asia (BCA)</h1>
-          <h1>2200551845</h1>
-          <h1>Helyati</h1>
-        </section>
-        <button><i class="fa-solid fa-copy"></i> Copy</button>
-      </article>
+      <div class="flex">
+        <article>
+          <img src="assets/gambar/BCA.png" alt="BCA" />
+          <section>
+            <h1>Bank Central Asia (BCA)</h1>
+            <h1 id="copy">2200551845</h1>
+            <h1>Helyati</h1>
+          </section>
+          <button onclick="copyRekening()">
+            <i class="fa-solid fa-copy"></i> Copy
+          </button>
+        </article>
+        <article>
+          <img src="assets/gambar/BCA.png" alt="BCA" />
+          <section>
+            <h1>Bank Central Asia (BCA)</h1>
+            <h1 id="copy">9999999999</h1>
+            <h1>Helyati</h1>
+          </section>
+          <button onclick="copyRekening()">
+            <i class="fa-solid fa-copy"></i> Copy
+          </button>
+        </article>
+        <article>
+          <img src="assets/gambar/BCA.png" alt="BCA" />
+          <section>
+            <h1>Bank Central Asia (BCA)</h1>
+            <h1 id="copy">111111111111</h1>
+            <h1>Helyati</h1>
+          </section>
+          <button onclick="copyRekening()">
+            <i class="fa-solid fa-copy"></i> Copy
+          </button>
+        </article>
+      </div>
     </main>
     <main class="footer divider-triangle-down has-divider">
       <h1 class="reveal">THANK YOU FOR COMING, DEAR !</h1>
@@ -105,5 +145,6 @@
     <script src="assets/js/count-timer.js"></script>
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/copy-text.js"></script>
   </body>
 </html>

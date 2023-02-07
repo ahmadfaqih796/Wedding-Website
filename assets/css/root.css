@@ -20,6 +20,12 @@ html {
   background-color: #ccf7ff !important;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .divider-wave {
   mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);
   -webkit-mask-image: url(../gambar/square.svg), url(../gambar/divider-wave.svg);

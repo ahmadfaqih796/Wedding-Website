@@ -10,7 +10,7 @@
 .acara .bunga-kuning {
   position: absolute;
   width: 550px;
- 
+  z-index: 1;
 }
 .acara .bunga-kuning.atas {
   left: -100px;
@@ -60,9 +60,15 @@
   font-size: 24px;
   margin: 30px 0 0;
 }
+.acara .card article section h1 {
+  margin-bottom: 10px;
+}
 .acara .card article .alamat {
   text-align: center;
   margin: 30px 0 0;
+}
+.acara .card article .alamat h1 {
+  margin-bottom: 10px;
 }
 .acara .card article .tombol {
   display: flex;

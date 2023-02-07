@@ -18,7 +18,7 @@
 }
 .acara .bunga-kuning.bawah {
   right: -80px;
-  transform: translateY(-350px) scaleX(-1);
+  transform: translateY(-280px) scaleX(-1);
 }
 .acara .card {
   border: 8px solid #f9c262;

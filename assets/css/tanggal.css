@@ -28,7 +28,8 @@
  margin: 0 auto 50px;
 }
 .tanggal .count-timer h1 {
-  padding: 30px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 /* Tablet */
@@ -37,7 +38,7 @@
     font-size: 28px;
   }
   .tanggal .count-timer h1 {
-    font-size: 28px;
+    font-size: 24px;
     padding: 0;
   }
 }

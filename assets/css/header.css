@@ -37,7 +37,7 @@
   margin: 25vh auto 10vh;
 }
 .header article {
-  margin-top: -100px;
+  margin-top: -200px;
   position: relative;
   text-align: center;
   color: white;
@@ -116,11 +116,10 @@
     display: none;
   }
   .header article {
-    margin-top: 0;
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 40%);
   }
   .header article p {
     font-size: 20px;
@@ -131,4 +130,11 @@
     width: 100%;
     margin: -25vh auto -10vh;
   }
+}
+
+@media screen and (max-height: 650px) {
+   .header {
+      position: relative;
+      height: 650px;
+    }
 }

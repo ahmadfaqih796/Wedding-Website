@@ -20,3 +20,14 @@ const copyRekeningBRI = async () => {
   }
 };
 
+let textDana = document.getElementById("copy-dana").innerHTML;
+const copyRekeningDana = async () => {
+  try {
+    await navigator.clipboard.writeText(textDana);
+    console.log("Berhasil mengcopy " + textDana);
+    alert("Berhasil mengcopy " + textDana)
+  } catch (err) {
+    console.error("Failed to copy: ", err);
+  }
+};
+

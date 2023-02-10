@@ -31,6 +31,7 @@
 }
 .rekening article section {
   font-family: overlock;
+  width: 150px;
   padding: 10px;
 }
 .rekening article section h1:nth-child(1) {
@@ -38,7 +39,7 @@
   margin-bottom: 5px;
 }
 .rekening article button {
-  width: 100px;
+  width: 80px;
   font-family: overlock;
   background-color: transparent;
   background-repeat: no-repeat;

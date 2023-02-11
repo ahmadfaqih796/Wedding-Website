@@ -3,9 +3,11 @@
   background: #f9c262;
   color: #313f67;
   border: 3px solid #313f67;
-  border-radius: 3px;
-  padding: 6px 8px;
+  border-radius: 5px;
+  padding: 8px 10px;
   position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
 /*google translate link | logo */

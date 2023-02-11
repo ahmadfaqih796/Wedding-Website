@@ -19,15 +19,17 @@
   justify-content: space-between;
   top: 0 !important;
   left: 0 !important;
-  animation: fadeIN 1s;
+  overflow: hidden;
 }
 .header .bunga-1.kiri {
   margin-left: -200px;
   transform: rotate(90deg);
+  animation: fadeLeft 1s;
 }
 .header .bunga-1.kanan {
   margin-right: -200px;
   transform: rotate(90deg) scaleY(-1);
+  animation: fadeRight 1s;
 }
 .header .bunga-2 {
   display: none;
@@ -43,6 +45,7 @@
   text-align: center;
   color: white;
   z-index: 1;
+  animation: fadeIn 1s;
 }
 .header article p {
   font-size: 40px;
@@ -121,6 +124,7 @@
     top: 0;
     left: 50%;
     transform: translate(-50%, 40%);
+    animation: none;
   }
   .header article p {
     font-size: 20px;

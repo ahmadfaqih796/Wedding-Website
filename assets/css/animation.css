@@ -10,13 +10,35 @@
   opacity: 1;
 }
 
-@keyframes fadeIN {
+@keyframes fadeIn {
   from {
-    transform: translateY(-150px);
+    transform: translateY(-200px) scale(0);
     opacity: 0;
   }
   to {
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    transform: translateX(150px) rotate(0deg) scaleY(-1);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(90deg) scaleY(-1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    transform: translateX(-150px) rotate(0);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) rotate(90deg);
     opacity: 1;
   }
 }

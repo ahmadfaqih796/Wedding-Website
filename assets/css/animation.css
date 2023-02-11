@@ -1,11 +1,22 @@
-.reveal{
-   position: relative;
-   transform: translateY(-150px);
-   opacity: 0;
-   transition: 1s all ease;
- }
- 
- .reveal.active{
-   transform: translateY(0);
-   opacity: 1;
- }
+.reveal {
+  position: relative;
+  transform: translateY(-150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@keyframes fadeIN {
+  from {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

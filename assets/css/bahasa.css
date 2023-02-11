@@ -41,5 +41,5 @@ body {
 }
 
 body > .skiptranslate {
-  display: none;
+  display: none !important;
 }

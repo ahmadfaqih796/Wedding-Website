@@ -42,4 +42,8 @@ body {
 
 body > .skiptranslate {
   display: none !important;
+  height: 0;
+}
+.goog-te-gadget {
+  height: 0;
 }

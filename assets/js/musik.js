@@ -8,7 +8,7 @@ icon.onclick = function () {
     // If paused then play the
     // music and change the image
     musik.play();
-    icon.innerHTML = `<i class="fa-solid fa-pause"> </i><marquee>Tulus - Teman Hidup</marquee>`;
+    icon.innerHTML = `<i class="fa-solid fa-pause"> </i><marquee scrolldelay="120">Tulus - Teman Hidup</marquee>`;
     icon.style.width = "100px";
     icon.style.justifyContent = "center"
     icon.style.transition= "0.5s all"

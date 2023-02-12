@@ -150,8 +150,35 @@
     </main>
     <main class="footer divider-triangle-down has-divider">
       <h1 class="reveal">TERIMA KASIH SUDAH DATANG</h1>
+      <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210402235520/play.png" id="icon">
+      <audio id="musik">
+        <source src="assets/media/music.mp3" type="audio/mp3"/>
+      </audio>
     </main>
+    
     <div id="google_translate_element"></div>
+    
+    <script>
+      var musik = document.getElementById("musik");
+      var icon = document.getElementById("icon");
+      // Creating a function that will change
+      // pause to play and vice-versa
+      icon.onclick = function () {
+        if (musik.paused) {
+          // If paused then play the
+          // music and change the image
+          musik.play();
+          icon.src =
+            "https://media.geeksforgeeks.org/wp-content/uploads/20210402235545/Pause.png";
+        } else {
+          // If playing then pause the
+          // music and change the image
+          musik.pause();
+          icon.src =
+            "https://media.geeksforgeeks.org/wp-content/uploads/20210402235520/play.png";
+        }
+      };
+    </script>
     <script
       type="text/javascript"
       src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"

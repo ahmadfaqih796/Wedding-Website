@@ -1,5 +1,6 @@
 var musik = document.getElementById("musik");
 var icon = document.getElementById("icon");
+musik.loop = true
 // Creating a function that will change
 // pause to play and vice-versa
 icon.onclick = function () {
@@ -7,13 +8,12 @@ icon.onclick = function () {
     // If paused then play the
     // music and change the image
     musik.play();
-    icon.src =
-      "https://media.geeksforgeeks.org/wp-content/uploads/20210402235545/Pause.png";
+    icon.innerHTML = `<i class="fa-solid fa-pause"></i>`;
+    //  icon.src = "nama file gambar";
   } else {
     // If playing then pause the
     // music and change the image
     musik.pause();
-    icon.src =
-      "https://media.geeksforgeeks.org/wp-content/uploads/20210402235520/play.png";
+    icon.innerHTML = `<i class="fa-solid fa-play"></i>`;
   }
 };
